@@ -226,6 +226,8 @@ h1 {
     }
     td {
         border: solid 1px;
+        text-align: center;
+        vertical-align: middle;
     }
     .profile_left {
         width: 350px;
@@ -316,12 +318,14 @@ footer {
     border: 1px solid;
     box-shadow: 6px 6px 6px 0px rgba(0, 0, 0, 0.45);
     box-shadow: #555;
+    border-radius: 10px;
 }
 .other_interview_question{
     /* padding: 15px; */
     background-color: #f5f5f5;
     width: 100%;
     text-align: center;
+    border-radius: 10px 10px 0 0 ;
 }
 .other_interview_question img {
     width: 60%;
@@ -335,7 +339,12 @@ footer {
     color: #c200fd6d;
     text-align: center;
     font-size: bold;
-    font-size: 18px;
+    border-radius: 0 0 10px 10px;
+}
+.other_interview_answer p{
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
 }
 
 /*-----他己紹介----------*/
